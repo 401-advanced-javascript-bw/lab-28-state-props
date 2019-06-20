@@ -17,26 +17,19 @@
 * [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js` -> rendering main to DOM
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `app.js` -> compiles app to export to index
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `message.js` -> displays hello world
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `form.js` -> creates form and keeps track of name change and increments count upon submit
+
+#### `counter.js` -> displays counter
+
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `npm run start`
   
 #### Tests
 * How do you run tests?
